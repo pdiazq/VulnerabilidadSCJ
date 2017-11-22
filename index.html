@@ -3,13 +3,15 @@
 <title>Linking to Data Table</title> 
 <!-- http://syntagmatic.github.com/parallel-coordinates/ -->
 <link rel="stylesheet" type="text/css" href="style.css">
-
+<head>
+ <h1>Análisis de infraestructura de Networking <small> Nov 2017</small></h1>
+</head>
+<body>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
 <script src="d3.parcoords.js"></script>
 <script src="divgrid.js"></script>
 
 <div id="example" class="parcoords"></div>
-        <h1>Análisis de infraestructura de Networking <small> Nov 2017</small></h1>
 <div id="grid"></div>
 
 <script id="brushing">// quantitative colour scale
@@ -55,3 +57,4 @@ d3.csv('planet.csv', function(data) {
   });
 });
 </script>
+</body>
