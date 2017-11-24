@@ -1,4 +1,3 @@
-<script id="brushing">// quantitative colour scale
 var green_to_blue = d3.scale.linear()
   .domain([9, 50])
   .range(["#7AC143", "#00B0DD"])
@@ -35,4 +34,3 @@ d3.csv('planet.csv', function(data) {
       });
   });
 });
-</script>
