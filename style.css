@@ -43,6 +43,10 @@ h3 {
 .float {
   float: left;
 }
+.centered {
+  text-align: center;
+}
+}
 .hide {
   display: none;
 }
