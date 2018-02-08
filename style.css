@@ -24,7 +24,7 @@ ul {
   margin: 12px 0;
 }
 p {
-  width: 1500px;
+  width: 560px;
 }
 pre {
   color: #444;
@@ -35,7 +35,7 @@ pre {
 }
 h1 small {
   font-weight: normal;
-  font-size: 2em;
+  font-size: 0.5em;
 }
 h3 {
   margin-top: 40px;
